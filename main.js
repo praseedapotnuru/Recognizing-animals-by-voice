@@ -24,7 +24,7 @@ function gotResult(error, results) {
 		random_number_b = Math.floor(Math.random() * 255) + 1;
 
 		document.getElementById("result_label").innerHTML = 'detected voice of ' + results[0].label;
-		document.getElementById("result_count").innerHTML = 'detected dog - ' + dog + ' detected cat - ' + cat + 'detected cow -' + cow + 'detected lion- ' + lion + '.";
+		document.getElementById("result_count").innerHTML = 'detected dog - ' + dog + ' detected cat - ' + cat + 'detected cow -' + cow + 'detected lion- ' + lion;
 
 		document.getElementById("result_label").style.color = "rgb(" + random_number_r + "," + random_number_g + "," + random_number_b + ")";
 		document.getElementById("result_count").style.color = "rgb(" + random_number_r + "," + random_number_g + "," + random_number_b + ")";
