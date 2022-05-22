@@ -1,6 +1,6 @@
 function startClassification() {
 	navigator.mediaDevices.getUserMedia({
-		(audio: true, video: false)
+		audio: true, video: false
 	});
 	classifier = ml5.soundClassifier('https://teachablemachine.withgoogle.com/models/p4Qxz_JRb/model.json', modelReady);
 }
